@@ -1,1 +1,19 @@
 this hello world
+
+
+
+
+
+
+
+
+
+
+
+
+yum install update -y
+yum install httpd -y
+service httpd start
+systemctl enable httpd
+chkconfig httpd on
+echo "welcome to mr dinesh">/var/www/html/index.html
